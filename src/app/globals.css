@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -39,4 +42,23 @@ a {
   html {
     color-scheme: dark;
   }
+}
+.accordion-header{
+  background-color: #F4F4F4;
+}
+
+.accordion-header p{
+  padding-right: 40px;
+
+}
+
+.swiper-slide{
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.swiper-container{
+  width: 100%;
+  max-width: 100%;
 }

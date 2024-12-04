@@ -1,8 +1,7 @@
-import type { NextConfig } from "next";
 
 const nextConfig = {
-	output: "export",  // <=== enables static exports
-	reactStrictMode: true,
+	transpilePackages: [ "@trilogy-ds/react"]
+
 };
 
 export default nextConfig;
